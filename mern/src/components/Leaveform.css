@@ -1,0 +1,70 @@
+.input_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1vw;
+}
+.container{
+    border: 2px solid green;
+    box-shadow: 10px 10px 20px grey;
+    padding: 2%;
+    background:aqua ;
+    width: 40%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1vw;
+    margin: auto;
+    margin-bottom: auto;
+    margin-top: 2%;
+}
+.leave_type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 1vw;
+}
+
+.input_container>input{
+    width: 40%;
+    height: 2vw;
+    margin-left: 2%;
+    border-radius: .5vw;
+   
+    border: rgb(5, 245, 57)2px solid;
+}
+.leave_type>select{
+    width: 40%;
+    height: 2%;
+   margin-left: 2%;
+   border-radius: .5vw;
+   
+   border: rgb(5, 245, 57)2px solid;
+}
+.comments>textarea{
+    height: 10vw;
+    width: 50%;
+    border-radius: 1vw;
+    display: flex;
+   
+    border: rgb(5, 245, 57)2px solid;
+}
+.but_div>button{
+    width: 8vw;
+    height: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: blue;
+   border-radius: 1vw;
+   color: aliceblue;
+   margin-left: 8vw;
+   
+}
